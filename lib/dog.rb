@@ -1,3 +1,4 @@
+require 'pry' 
 class Dog
 attr_accessor :name
   @@all = []
@@ -24,5 +25,6 @@ attr_accessor :name
   def self.clear_all
     @@all.clear
   end
+  binding.pry 
 
 end
